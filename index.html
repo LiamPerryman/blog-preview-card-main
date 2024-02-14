@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <div class="bg-yellow-400/80 h-screen px-4">
+      <article class="h-full w-full flex justify-center items-center">
+        <div
+          class="card max-h-[32.625rem] max-w-[24rem] bg-white rounded-2xl outline outline-1 outline-black z-20 flex flex-col items-center gap-5 p-6 shadow-black transition-all ease-in-out duration-300 shadow-notActiveShadow"
+        >
+          <div class="overflow-hidden rounded-xl">
+            <img src="./assets/images/illustration-article.svg" alt="" />
+          </div>
+          <div class="w-full flex flex-col max-[365px]:items-center max-[365px]:text-center gap-3">
+            <div
+              class="h-[2rem] w-[90px] bg-yellow-400/80 flex justify-center items-center rounded-md ga"
+            >
+              <p class="font-bold">Learning</p>
+            </div>
+            <p class="text-sm">Published 21 Dec 2023</p>
+            <h1
+              class="header font-bold text-2xl hover:cursor-pointer group hover:text-yellow-400 transition-colors ease-in-out duration-300 flex-wrap"
+            >
+              HTML & CSS foundations
+            </h1>
+            <p class="opacity-50">
+              These languages are the backbone of every website, defining, structure, content, and
+              presentation
+            </p>
+          </div>
+          <div class="flex items-center gap-3 justify-start max-[365px]:justify-center w-full">
+            <img class="h-8 w-8" src="./assets/images/image-avatar.webp" alt="" />
+            <p class="font-bold">Greg Hooper</p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <script src="./JavaScript/index.js"></script>
+  </body>
+</html>
